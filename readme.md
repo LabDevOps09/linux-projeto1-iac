@@ -11,7 +11,7 @@ O código original foi ajustado para ser executado dentro do GitHub Codespaces. 
 No ambiente GitHub Codespaces, os diretórios precisam ser criados dentro do diretório ~/workspace/, que é o local padrão onde os arquivos de trabalho ficam no Codespaces. Em vez de criar diretórios no sistema raiz, como no código original, usamos mkdir -p ~/workspace/nome_do_diretorio.
 
 ## 2. Simulação de Criação de Grupos e Usuários
-Embora o código original fosse voltado para um sistema Linux real, no Codespaces, não tive permissões para criar grupos e usuários reais. Então, adaptamos a parte do script que cria usuários e grupos para apenas simular a criação e exibir uma mensagem indicando que a operação foi realizada.
+Embora o código original fosse voltado para um sistema Linux real, no Codespaces, não tive permissões para criar grupos e usuários reais. Então, adaptei a parte do script que cria usuários e grupos para apenas simular a criação e exibir uma mensagem indicando que a operação foi realizada.
 
 ## 3. Definição de Permissões nos Diretórios
 As permissões nos diretórios são definidas de forma similar ao código original, mas novamente adaptei para trabalhar dentro do diretório ~/workspace/ no Codespaces.
