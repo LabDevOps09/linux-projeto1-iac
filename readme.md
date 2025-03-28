@@ -1,5 +1,5 @@
 # Projeto de Infraestrutura no Codespaces
-Neste projeto, adaptamos um script de criação de diretórios, grupos de usuários e definição de permissões para ser executado no GitHub Codespaces. Abaixo estão os detalhes do processo e as mudanças feitas no código para que ele funcione corretamente nesse ambiente.
+Neste projeto, adaptei um script de criação de diretórios, grupos de usuários e definição de permissões para ser executado no GitHub Codespaces. Abaixo estão os detalhes do processo e as mudanças feitas no código para que ele funcione corretamente nesse ambiente.
 
 ## Objetivo
 O objetivo deste script é automatizar a criação de diretórios, usuários, grupos de usuários e definição de permissões de acesso em um ambiente simulado dentro do GitHub Codespaces. Ao rodar o script, os diretórios serão criados, os grupos de usuários serão simulados e as permissões serão configuradas, tudo em uma máquina virtual no ambiente Codespaces.
